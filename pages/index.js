@@ -51,7 +51,7 @@ export default function Home({ allPostsData }) {
       </section>
       {/* Blog list rendered from build-time data */}
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.headingLg}>Blog</h2>
+        <h2 className={utilStyles.headingLg}>Products</h2>
         <ul className={utilStyles.list}>
           {/* Iterate posts and render basic details */}
           {allPostsData.map(({ id, date, title, author }) => (
